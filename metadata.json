@@ -1,0 +1,6 @@
+{
+  "name": "Satyam Design Studio",
+  "description": "Bespoke interior architecture and minimalist spaces of quiet luxury and structural precision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

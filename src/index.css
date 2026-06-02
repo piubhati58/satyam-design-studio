@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Hanken Grotesk", "Inter", sans-serif;
+  --font-sans: "Hanken Grotesk", "Inter", sans-serif;
+  
+  --color-brand-linen: #ffffff;
+  --color-brand-linen-dim: #71717a;
+  --color-brand-linen-low: #fafafa;
+  --color-brand-linen-container: #ffffff;
+  --color-brand-linen-high: #f4f4f5;
+  --color-brand-charcoal: #09090b;
+  --color-brand-beige: #181c1c;
+  --color-brand-beige-light: #e4e4e7;
+  --color-brand-zinc: #a1a1aa;
+}
+
+/* Custom styles for high-end boutique browser feel */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-linen);
+  color: var(--color-brand-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-brand-beige);
+  color: #ffffff;
+}
+
+/* Custom Scrollbar for sleek architectural feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-linen);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-zinc);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-charcoal);
+}
+
+img {
+  filter: grayscale(10%) contrast(102%);
+  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+img:hover {
+  filter: grayscale(0%) contrast(100%);
+}
+
