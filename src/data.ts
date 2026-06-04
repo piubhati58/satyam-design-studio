@@ -4,6 +4,7 @@
  */
 
 import { ProcessStep, ServiceItem, TestimonialItem, PortfolioProject } from './types';
+import modularKitchenImg from './assets/images/modular_kitchen_1780477323580.png';
 
 export const HERO_BACKGROUND = 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1600';
 
@@ -11,7 +12,7 @@ export const PROCESS_HERO_BG = 'https://images.unsplash.com/photo-1618221195710-
 
 export const CONTACT_HERO_BG = 'https://images.unsplash.com/photo-1617806118233-18e1db207f62?auto=format&fit=crop&q=80&w=1600';
 
-export const ABOUT_MAIN_IMAGE = 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1000';
+export const ABOUT_MAIN_IMAGE = 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1000';
 
 export const PROCESS_STEPS: ProcessStep[] = [
   {
@@ -105,30 +106,30 @@ export const SERVICE_ITEMS: ServiceItem[] = [
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'julian',
-    quote: 'Satyam transformed our penthouse into a sanctuary of quiet luxury. Their eye for detail is unmatched in the industry.',
-    author: 'Julian Vane',
-    role: 'CEO, Horizon Tech',
+    quote: 'Satyam Design Studio transformed our home into a functional, elegant, and inspiring environment that has completely elevated our daily living.',
+    author: 'Rohan Malhotra',
+    role: 'CEO, Horizon Ventures',
     imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
     isLarge: true
   },
   {
     id: 'elena',
     quote: 'The process was as seamless as the result. A truly bespoke experience that understands the nuances of architectural flow.',
-    author: 'Elena Rossi',
-    role: 'Architectural Digest Contributor',
+    author: 'Anshika Sharma',
+    role: 'Architectural Consultant',
     imageUrl: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'sarah',
     quote: 'Quiet luxury personified. They don’t just design rooms; they curate atmospheres.',
-    author: 'Sarah Jenkins',
-    role: 'Art Advisory Lead'
+    author: 'Priya Iyer',
+    role: 'Art Curation Advisory'
   },
   {
     id: 'marcus',
     quote: 'A sanctuary in the middle of the city. Every corner tells a story of intentionality.',
-    author: 'Marcus Thorne',
-    role: 'Design Enthusiast & Investor',
+    author: 'Aditya Birla',
+    role: 'Luxury Space Investor',
     imageUrl: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&q=80&w=1200'
   }
 ];
@@ -207,7 +208,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: 'obsidian',
     title: 'The Obsidian Workspace',
     category: 'Commercial',
-    location: 'Gurgaon, Haryana',
+    location: 'GIFT City, Gujarat',
     year: '2024',
     imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200',
     description: 'Sleek creative boutique corporate headquarters using structural steel framing, matte obsidian stones, and fluted acoustics.',
@@ -231,16 +232,16 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     category: 'Kitchens',
     location: 'Udaipur, Rajasthan',
     year: '2024',
-    imageUrl: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200',
+    imageUrl: modularKitchenImg,
     description: 'Built for professional culinary design, this modular kitchen blends Italian cabinetry layout and integrated sensory appliances.',
     materials: ['Sintered Stone', 'Fluted Oak', 'Stainless Steel', 'Hidden LEDs'],
     size: '650 sq. ft.'
   },
   {
     id: 'pine-forest',
-    title: 'Bespoke Pine Forest Lodge',
+    title: 'Bespoke Oasis Forest Lodge',
     category: 'Residential',
-    location: 'Shimla, Himachal Pradesh',
+    location: 'Gir Forest, Gujarat',
     year: '2022',
     imageUrl: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&q=80&w=1200',
     description: 'A cozy elevated getaway with panoramic forest-view glass windows, local stone fireplaces and natural textured fabrics.',

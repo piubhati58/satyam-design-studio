@@ -57,14 +57,53 @@ export default function Header({ currentSection, onNavigate }: HeaderProps) {
         <button
           id="logo-button"
           onClick={() => handleNavClick('home')}
-          className="text-left group cursor-pointer"
+          className="flex items-center space-x-3.5 text-left group cursor-pointer"
         >
-          <span className="font-sans text-lg sm:text-xl md:text-2xl tracking-tighter font-bold uppercase text-brand-charcoal block">
-            Satyam Design Studio
-          </span>
-          <span className="text-[9px] uppercase tracking-[0.3em] text-brand-zinc group-hover:text-brand-charcoal transition-colors duration-300">
-            Interior Architecture
-          </span>
+          {/* Custom SVG Architecture Logo converted from hand-drawn reference */}
+          <div className="flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+            <svg
+              viewBox="0 0 40 40"
+              className="w-9 h-9 sm:w-10 sm:h-10 text-brand-charcoal"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              {/* Column 1 (left) */}
+              <line x1="8" y1="14" x2="8" y2="34" />
+              
+              {/* Column 2 (middle-left) */}
+              <line x1="14" y1="10" x2="14" y2="34" />
+              
+              {/* Column 3 (middle-right) */}
+              <line x1="20" y1="14" x2="20" y2="34" />
+              
+              {/* Column 4 (right) */}
+              <line x1="32" y1="6" x2="32" y2="34" />
+              
+              {/* Horizontal line of the left/lower frame */}
+              <line x1="8" y1="14" x2="20" y2="14" />
+              
+              {/* Sloped roof of the right/taller frame */}
+              <line x1="14" y1="10" x2="32" y2="6" />
+              
+              {/* Doorframe filled opening */}
+              <rect x="23" y="16" width="6" height="18" fill="currentColor" stroke="none" />
+              
+              {/* Door leaf (open) with warm golden beige fill matching original screenshot and brand style */}
+              <polygon points="23,16 26,18.5 26,31.5 23,34" fill="#C4B59F" stroke="currentColor" strokeWidth="1" />
+            </svg>
+          </div>
+
+          <div className="flex flex-col">
+            <span className="font-sans text-lg sm:text-xl md:text-2xl tracking-tighter font-bold uppercase text-brand-charcoal block leading-none">
+              Satyam Design Studio
+            </span>
+            <span className="text-[9px] uppercase tracking-[0.3em] text-brand-zinc group-hover:text-brand-charcoal transition-colors duration-300 mt-1 block">
+              Interior Architecture
+            </span>
+          </div>
         </button>
 
         {/* Desktop Navigation */}

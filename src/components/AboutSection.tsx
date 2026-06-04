@@ -163,8 +163,55 @@ export default function AboutSection({ onNavigate }: AboutSectionProps) {
                 "Satyam doesn't just design rooms; they design the feeling of home before you even step through the door."
               </p>
               <p className="text-[10px] uppercase tracking-[0.2em] font-semibold text-brand-zinc">
-                — Satyam Design Studio
+                — Purushottam
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Spotlight on the Founder Segment */}
+        <div id="about-founder-spotlight" className="mb-32 bg-white border border-brand-linen-high p-8 md:p-16 max-w-4xl mx-auto shadow-sm">
+          <div className="space-y-6">
+            <div className="space-y-2">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-brand-beige block">
+                The Creative Visionary
+              </span>
+              <h3 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-charcoal tracking-tight leading-none">
+                Purushottam
+              </h3>
+              <p className="text-xs uppercase tracking-widest text-[#a855f7] font-bold">
+                Founder & Principal Designer
+              </p>
+            </div>
+
+            <div className="w-16 h-[1.5px] bg-brand-beige" />
+
+            <p className="text-brand-zinc text-sm sm:text-base leading-relaxed font-light">
+              Satyam Design Studio was founded with a vision to transform ordinary spaces into functional, elegant, and meaningful environments that improve the way people live and work.
+            </p>
+
+            {/* Core Architectural Vision */}
+            <div className="p-6 bg-brand-linen-high/40 border-l-2 border-brand-beige my-4">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-brand-beige block mb-2">
+                Our Architectural Vision
+              </span>
+              <p className="font-serif text-base sm:text-lg text-brand-charcoal italic leading-relaxed font-light">
+                "To become a trusted and innovative architecture and interior design firm, creating inspiring, functional, and sustainable spaces that enhance people's lives while setting new standards of design excellence and client satisfaction."
+              </p>
+            </div>
+
+
+            <p className="text-brand-zinc text-sm font-light leading-relaxed">
+              Under his architectural command, the studio operates out of Rajasthan, designing elite residential sanctuaries and iconic commercial workspaces that are built to withstand the passing of time.
+            </p>
+
+            <div className="pt-4 flex items-center space-x-4">
+              <a 
+                href="mailto:piubhati58@gmail.com" 
+                className="text-xs font-semibold uppercase tracking-widest text-brand-charcoal hover:text-[#a855f7] border-b border-brand-charcoal/20 pb-0.5 transition-colors"
+              >
+                Initiate Consultation with Purushottam
+              </a>
             </div>
           </div>
         </div>

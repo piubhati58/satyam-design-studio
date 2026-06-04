@@ -285,7 +285,7 @@ export default function PortfolioSection({ onNavigate }: PortfolioSectionProps) 
           </div>
 
           <div className="space-y-1 border-t md:border-t-0 md:border-x border-zinc-800 pt-6 md:pt-0 pr-0 md:px-6">
-            <span className="font-serif text-5xl sm:text-6xl font-light text-white block">12</span>
+            <span className="font-serif text-5xl sm:text-6xl font-light text-white block">10+</span>
             <span className="text-[10px] font-semibold uppercase tracking-[0.25em] text-zinc-400">
                Design Certifications
             </span>
